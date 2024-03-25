@@ -1073,6 +1073,8 @@ input[type="search"]::-webkit-search-cancel-button {
 
 /* ---- 1200px ----*/
 
+/* ---- 1200px ----*/
+
 @media screen and (max-width: 1200px) {
   .message-default .message-subject {
     flex: 0 0 25%;
@@ -1095,24 +1097,23 @@ input[type="search"]::-webkit-search-cancel-button {
     flex-direction: column;
   }
 
-  .inbox-menu {
+  .gmail-logo,
+  .side-nav,
+  .footer,
+  .header,
+  .header-search,
+  .header-buttons,
+  .header-utility,
+  .toolbar,
+  .message-list-actions,
+  .message-viewer,
+  .compose,
+  .message-viewer-actions {
     display: none;
   }
 
-  .inbox-content {
-    flex: 1;
-  }
-
-  .gmail-logo {
+  .inbox {
     display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the logo */
-  }
-
-  .side-nav {
-    display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the side navigation */
   }
 }
 
@@ -1124,24 +1125,23 @@ input[type="search"]::-webkit-search-cancel-button {
     flex-direction: column;
   }
 
-  .inbox-menu {
+  .gmail-logo,
+  .side-nav,
+  .footer,
+  .header,
+  .header-search,
+  .header-buttons,
+  .header-utility,
+  .toolbar,
+  .message-list-actions,
+  .message-viewer,
+  .compose,
+  .message-viewer-actions {
     display: none;
   }
 
-  .inbox-content {
-    flex: 1;
-  }
-
-  .gmail-logo {
+  .inbox {
     display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the logo */
-  }
-
-  .side-nav {
-    display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the side navigation */
   }
 }
 
@@ -1153,23 +1153,25 @@ input[type="search"]::-webkit-search-cancel-button {
     flex-direction: column;
   }
 
-  .inbox-menu {
+  .gmail-logo,
+  .side-nav,
+  .footer,
+  .header,
+  .header-search,
+  .header-buttons,
+  .header-utility,
+  .toolbar,
+  .message-list-actions,
+  .message-viewer,
+  .icons,
+  .inbox-container,
+  .inbox-menu,
+  .compose,
+  .message-viewer-actions {
     display: none;
   }
 
-  .inbox-content {
-    flex: 1;
-  }
-
-  .gmail-logo {
+  .inbox {
     display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the logo */
-  }
-
-  .side-nav {
-    display: block;
-    width: 280px; /* Set width to match 280px viewport width */
-    margin: auto; /* Center the side navigation */
   }
 }
